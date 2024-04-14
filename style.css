@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 0.625rem;
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+    --hd-font-family: "Poppins", sans-serif;
+    --body-font-family: "Open Sans", sans-serif;
+}
+
+body{
+    background-image: url(images/bg-desktop.svg);
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.mock-img,
+.content{
+    flex-basis: 100%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
